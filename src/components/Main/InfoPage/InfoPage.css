@@ -1,9 +1,12 @@
 .infoPage {
-    width: 960px;
-    height: 400px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     position: absolute;
     background-color: white;
-    padding: 20px;    
+    padding: 20px; 
+    z-index: 1;   
 }
 
 .infoPage .backButton {
@@ -11,7 +14,7 @@
 }
 
 .infoPage .backButton p {
-    color: #e3e3e3
+    color: #e3e3e3;
 }
 
 .infoPage p {

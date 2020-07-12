@@ -1,6 +1,7 @@
 .main {
     display: flex;
     background-color: white;
+    position: relative;
 }
 
 .main .leftSection {

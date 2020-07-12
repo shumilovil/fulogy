@@ -22,6 +22,12 @@ export const Main = (props) => {
     return (
         <div className='main'>
 
+            {
+                isInfoVisible ?
+                    <InfoPage onVisibilityChange={onVisibilityChange} />
+                    : null
+            }
+
             <div className='leftSection'>
                 <div className='mainPicture'>
                     <img src={require(`../../assets/images/main-picture-${pictureNumber}-${temperature}.jpg`)} alt="" />
@@ -86,13 +92,6 @@ export const Main = (props) => {
                     </div>
                 </div>
             </div>
-
-            {
-                isInfoVisible ?
-                    <InfoPage onVisibilityChange={onVisibilityChange}/>
-                    : null
-            }
-
         </div>
     )
 }
