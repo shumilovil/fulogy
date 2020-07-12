@@ -9,7 +9,6 @@ import { useState } from 'react';
 export const Header = (props) => {
 
     const [isMenuVisible, setMenuVisibility] = useState(false);
-    const [isInfoShown, setInfoVisibility] = useState(false);
 
     const handleMenuVisibility = () => {
         setMenuVisibility(!isMenuVisible)
