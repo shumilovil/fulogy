@@ -1,0 +1,142 @@
+.main {
+    display: flex;
+    background-color: white;
+}
+
+.main .leftSection {
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .leftSection .mainPicture {
+    margin-top: 29px;
+    margin-bottom: 29px;
+    position: relative;
+}
+
+.main .leftSection .mainPicture img {
+    max-width: 461px;
+    max-height: 384px;
+    box-shadow: 0px 8px 13px 0px rgba(26, 26, 26, 0.25);
+    border-radius: 5px;
+}
+
+.main .leftSection .mainPicture .markers {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+}
+
+.main .leftSection .mainPicture .markers img {
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.chooseLightTemp {
+    border-left: solid 1px #e3e3e3;
+}
+
+.chooseLightTemp .sectionHeader {
+    display: flex;
+    height: 54px;
+    background-color: #00b6ff;
+    box-shadow: 0px 3px 8px 0px rgba(26, 26, 26, 0.2);
+}
+
+.chooseLightTemp .sectionHeader .iButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 54px;
+    background-color: #00abf0;
+    cursor: pointer;
+}
+
+.chooseLightTemp .sectionHeader .iButtonDesctiption {
+    width: 424px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chooseLightTemp .sectionHeader .iButtonDesctiption span {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 1.143;
+}
+
+.previewPicturesArea {
+    height: 146px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previewPictures {
+    display: flex;
+    justify-content: center;
+}
+
+.previewPictures .preview {
+    width: 108px;
+    height: 79px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.previewPictures .preview img {
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px #c7c7c7;
+    max-width: 97px;
+    max-height: 71px;
+    cursor: pointer;
+}
+
+.previewPictures .preview.chosen img {
+    max-width: 108px;
+    max-height: 79px;
+}
+
+.previewPictures .preview p {
+    position: absolute;    
+    font-size: 12px;
+    color: rgb(255, 254, 254);
+    line-height: 1.167;
+    background-color: rgb(26, 26, 26);
+    opacity: 0.702;
+    width: 97px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 4px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.previewPictures .preview.chosen p {
+    width: 108px;
+    bottom: 0px;
+}
+
+.previewPictures .preview.chosen .checkBox {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.previewPictures .preview.chosen .checkBox img {    
+    border: none;
+    
+}
+

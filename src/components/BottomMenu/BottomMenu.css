@@ -1,0 +1,66 @@
+.bottomMenu {
+    height: 61px;
+    border-top: solid 1px #e3e3e3;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.bottomMenu .cell .menuItem {
+    height: 57px;
+    width: 116px;
+    border-right: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bottomMenu .cell:first-child {
+    border-left: none;
+}
+
+.bottomMenu .cell:first-child .menuItem {
+    border-left: solid 1px #e3e3e3;
+}
+
+.bottomMenu .underline {
+    height: 3px;
+    background-color: #00b6ff;
+    border-right: solid 1px white;
+}
+
+.bottomMenu .cell:first-child .underline {
+    border-left: solid 1px white;
+}
+
+.bottomMenu .cell .menuItem span {
+    padding: 7px;
+    font-size: 14px;
+    color: rgb(26, 26, 26);
+    line-height: 1;
+}
+
+.bottomMenu .cell:nth-child(7) .underline {
+    background-color: #ff8182;
+}
+
+.bottomMenu .cell:nth-child(8) .underline {
+    background-color: #ff8182;
+}
+
+.bottomMenu .cell.chosen .menuItem {
+    background-color: #00b6ff;
+    border-bottom: none;
+}
+
+.bottomMenu .cell.chosen .underline {
+    height: 4px;
+}
+
+.bottomMenu .cell.chosen .menuItem span {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+}

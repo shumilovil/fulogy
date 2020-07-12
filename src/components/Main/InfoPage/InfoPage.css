@@ -1,0 +1,19 @@
+.infoPage {
+    width: 960px;
+    height: 400px;
+    position: absolute;
+    background-color: white;
+    padding: 20px;    
+}
+
+.infoPage .backButton {
+    cursor: pointer;
+}
+
+.infoPage .backButton p {
+    color: #e3e3e3
+}
+
+.infoPage p {
+    font-size: 12px;
+}

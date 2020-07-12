@@ -1,0 +1,71 @@
+.header {
+    height: 57px;
+    background-color: #1a1a1a;
+    position: relative;      
+}
+
+.header .logo {
+    position: absolute;
+    top: 15px;
+    left: 29px;
+}
+
+.header .burgerButton {
+    width: 20px;
+    height: 13px;
+    position: absolute;
+    right: 39px;
+    top: 22px;
+    cursor: pointer;    
+}
+
+.header .cart {
+    position: absolute;
+    right: 99px;
+    top: 21px;
+}
+
+.header .cart .cartCircle {
+    width: 14px;
+    height: 14px;
+    color: white;
+    background: url('../../assets/cart-circle.png');
+    text-align: center;
+    font-size: 8px;
+    line-height: 1.75;
+    position: absolute;
+    top: -50%;
+    right: -50%;
+}
+
+.header .menu {
+    z-index: 1;
+    height: 502px;
+    position: absolute;
+    right: 0px;
+    top: 57px;
+    width: 320px;
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.header .menu .menuCell {
+   flex-grow: 1;   
+    border-top: solid 1px#282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header .menu .menuCell:hover {
+    background-color: #00b6ff;
+}
+
+.header .menu .menuCell span {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+}

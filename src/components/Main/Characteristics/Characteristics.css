@@ -1,0 +1,54 @@
+.characteristics {
+    border: solid 1px #e3e3e3;
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+
+.characteristics .line {
+    width: 480px;
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.characteristics .line .leftColumn {
+    width: 200px;
+}
+
+.characteristics .line .rightColumn {
+    width: 280px;
+}
+
+.characteristics .line .leftColumn span {
+    display: inline-block;
+    font-size: 12px;
+    color: rgb(26, 26, 26);
+    line-height: 1.167;
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 35px;
+}
+
+.characteristics .line .rightColumn span {
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(26, 26, 26);
+    line-height: 1.143;
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 14px;
+}
+
+.characteristics .line .rightColumn .standart {
+    width: 80px;
+    height: 28px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 3px 5px 0px rgba(32, 32, 32, 0.13);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.characteristics .line .rightColumn .standart span {
+    padding-left: 20px;
+}
